@@ -3,20 +3,18 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Index | PhotoFolio</title>
+    <title>Photographer</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-    <!-- Google Fonts -->
+    <link href="assets/img/logo.png" rel="apple-touch-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <!-- CSS Files -->
     <link href="assets/js/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link
       href="assets/js/bootstrap-icons/bootstrap-icons.css"
@@ -43,7 +41,7 @@
     </div>
     <header id="header" class="header d-flex align-items-center sticky-top">
       <div
-        class="container-fluid position-relative d-flex align-items-center justify-content-between"
+        class="container-fluid position-relative d-flex align-items-center justify-content-around"
       >
         <a
           href="index.html"
@@ -54,53 +52,23 @@
         </a>
 
         <nav id="navmenu" class="navmenu">
-          <ul>
+          <ul class="mr-4">
             <li>
               <a href="index.html" class="active">Home<br /></a>
             </li>
-            <li><a href="about.html">About</a></li>
-            <li class="dropdown">
-              <a href="gallery.html"
-                ><span>Gallery</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i
-              ></a>
-              <ul>
-                <li><a href="gallery.html">Wedding</a></li>
-                <li><a href="gallery.html">Session</a></li>
-                <li><a href="gallery.html">Portrait</a></li>
-              </ul>
-            </li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery-sec">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
-
-        <div class="header-social-links">
-          <a href="https://x.com/AhmedSha3rawy54" class="twitter"
-            ><i class="bi bi-twitter-x"></i
-          ></a>
-          <a href="https://www.facebook.com/ahmed.mostafa2011" class="facebook"
-            ><i class="bi bi-facebook"></i
-          ></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/ahmed-mostafa5/" class="linkedin"
-            ><i class="bi bi-linkedin"></i
-          ></a>
-        </div>
       </div>
     </header>
     <main class="main">
       <section id="hero" class="hero section">
         <div class="container">
           <div class="row justify-content-center">
-            <div
-              class="col-lg-6 text-center mb-5 mb-lg-0 img-div"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <img src="assets/img/profile-img.png" alt="" class="hero-img" />
-            </div>
             <div
               class="col-lg-6 text-center"
               data-aos="fade-up"
@@ -110,210 +78,604 @@
                 <span>I'm </span><span class="underlight">Ahmed</span> a
                 Professional<span> Photographer from Egypt</span>
               </h2>
-              <p>
-                Illum nesciunt eligendi, dicta similique perspiciatis repellat.
-                Sapiente natus amet rem ipsum quam temporibus autem beatae nobis
-                tenetur! Ullam deleniti, id laboriosam hic recusandae commodi
-              </p>
-
-              <a href="contact.html" class="btn-get-started"> Hire Me<br /></a>
+              <a href="#contact" class="btn-get-started m-5">
+                Hire Me<br
+              /></a>
+              <div class="hero-links d-flex justify-content-center">
+                <a href="https://x.com/AhmedSha3rawy54"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+                <a href="https://www.facebook.com/ahmed.mostafa2011"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ahmed-mostafa5"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      <section id="gallery" class="gallery section">
+      <section id="about" class="about section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="section-title text-center">
+            <h2>About Me</h2>
+            <p>Get to know me</p>
+          </div>
+          <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+              <img src="assets/img/profile-img.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-5 content text-center">
+              <h2 style="color: #6d42d1">
+                <p>Professional Photographer</p>
+                <p>&amp; Web Developer.</p>
+              </h2>
+              <p style="height: 20px"></p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul >
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Birthday:</strong> <span>1 May 1996</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong> <span>www.site.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Phone:</strong> <span>0109 715 5272</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Address:</strong> <span>Sharkia, Egypt</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                      <span>27</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Profession:</strong> <span>Photographer</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span>ahmed.code.dev@gmail.com</span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Freelance:</strong> <span>Available</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery-sec" class="gallery section">
         <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
           <div class="row gy-4 justify-content-center">
-            <h2 class="text-center latest-photos">Latest Photos</h2>
+            <!-- Start Gallery Heading -->
+            <div class="section-title text-center">
+              <h2>Gallery</h2>
+              <p>Latest Photos</p>
+            </div>
             <!-- Start Gallery Images -->
             <div class="col-xl-3 col-lg-4 col-md-6">
               <a
                 href="./assets/img/gallery/gallery-1.jpg"
                 data-fancybox="gallery"
                 ><img
-                src="assets/img/gallery/gallery-1.jpg"
-                class="img-fluid gallery-item h-100"
-                alt=""
+                  src="assets/img/gallery/gallery-1.jpg"
+                  class="img-fluid gallery-item h-100"
+                  alt=""
               /></a>
             </div>
-            <!-- End Test Item -->
+            <!-- End Item -->
             <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="gallery-item h-100">
-                <img
+              <a
+                href="./assets/img/gallery/gallery-2.jpg"
+                data-fancybox="gallery"
+                ><img
                   src="assets/img/gallery/gallery-2.jpg"
-                  class="img-fluid"
+                  class="img-fluid gallery-item h-100"
                   alt=""
-                />
-                <div
-                  class="gallery-links d-flex align-items-center justify-content-center"
-                >
-                  <a
-                    href="assets/img/gallery/gallery-2.jpg"
-                    title="Gallery 2"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-arrows-angle-expand"></i
-                  ></a>
-                  <a href="gallery-single.html" class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
+              /></a>
             </div>
-            <!-- End Gallery Item -->
-
+            <!-- End Item -->
             <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="gallery-item h-100">
-                <img
+              <a
+                href="./assets/img/gallery/gallery-3.jpg"
+                data-fancybox="gallery"
+                ><img
                   src="assets/img/gallery/gallery-3.jpg"
-                  class="img-fluid"
+                  class="img-fluid gallery-item h-100"
                   alt=""
-                />
-                <div
-                  class="gallery-links d-flex align-items-center justify-content-center"
-                >
-                  <a
-                    href="assets/img/gallery/gallery-3.jpg"
-                    title="Gallery 3"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-arrows-angle-expand"></i
-                  ></a>
-                  <a href="gallery-single.html" class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
+              /></a>
             </div>
-            <!-- End Gallery Item -->
-
+            <!-- End Item -->
             <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="gallery-item h-100">
-                <img
+              <a
+                href="./assets/img/gallery/gallery-4.jpg"
+                data-fancybox="gallery"
+                ><img
                   src="assets/img/gallery/gallery-4.jpg"
-                  class="img-fluid"
+                  class="img-fluid gallery-item h-100"
                   alt=""
-                />
-                <div
-                  class="gallery-links d-flex align-items-center justify-content-center"
-                >
-                  <a
-                    href="assets/img/gallery/gallery-4.jpg"
-                    title="Gallery 4"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-arrows-angle-expand"></i
-                  ></a>
-                  <a href="gallery-single.html" class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
+              /></a>
             </div>
-            <!-- End Gallery Item -->
-
+            <!-- End Item -->
             <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="gallery-item h-100">
-                <img
+              <a
+                href="./assets/img/gallery/gallery-5.jpg"
+                data-fancybox="gallery"
+                ><img
                   src="assets/img/gallery/gallery-5.jpg"
-                  class="img-fluid"
+                  class="img-fluid gallery-item h-100"
                   alt=""
-                />
-                <div
-                  class="gallery-links d-flex align-items-center justify-content-center"
-                >
-                  <a
-                    href="assets/img/gallery/gallery-5.jpg"
-                    title="Gallery 5"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-arrows-angle-expand"></i
-                  ></a>
-                  <a href="gallery-single.html" class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
+              /></a>
             </div>
-            <!-- End Gallery Item -->
-
+            <!-- End Item -->
             <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="gallery-item h-100">
-                <img
+              <a
+                href="./assets/img/gallery/gallery-6.jpg"
+                data-fancybox="gallery"
+                ><img
                   src="assets/img/gallery/gallery-6.jpg"
-                  class="img-fluid"
+                  class="img-fluid gallery-item h-100"
                   alt=""
-                />
-                <div
-                  class="gallery-links d-flex align-items-center justify-content-center"
-                >
-                  <a
-                    href="assets/img/gallery/gallery-6.jpg"
-                    title="Gallery 6"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-arrows-angle-expand"></i
-                  ></a>
-                  <a href="gallery-single.html" class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
+              /></a>
             </div>
-            <!-- End Gallery Item -->
-
+            <!-- End Item -->
             <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="gallery-item h-100">
-                <img
+              <a
+                href="./assets/img/gallery/gallery-7.jpg"
+                data-fancybox="gallery"
+                ><img
                   src="assets/img/gallery/gallery-7.jpg"
-                  class="img-fluid"
+                  class="img-fluid gallery-item h-100"
                   alt=""
-                />
-                <div
-                  class="gallery-links d-flex align-items-center justify-content-center"
-                >
-                  <a
-                    href="assets/img/gallery/gallery-7.jpg"
-                    title="Gallery 7"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-arrows-angle-expand"></i
-                  ></a>
-                  <a href="gallery-single.html" class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
+              /></a>
             </div>
-            <!-- End Gallery Item -->
-
+            <!-- End Item -->
             <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="gallery-item h-100">
-                <img
+              <a
+                href="./assets/img/gallery/gallery-8-2.jpg"
+                data-fancybox="gallery"
+                ><img
                   src="assets/img/gallery/gallery-8-2.jpg"
-                  class="img-fluid"
+                  class="img-fluid gallery-item h-100"
                   alt=""
-                />
-                <div
-                  class="gallery-links d-flex align-items-center justify-content-center"
-                >
-                  <a
-                    href="assets/img/gallery/gallery-8-2.jpg"
-                    title="Gallery 8"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-arrows-angle-expand"></i
-                  ></a>
-                  <a href="gallery-single.html" class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
+              /></a>
+            </div>
+            <!-- End Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <a
+                href="./assets/img/gallery/gallery-9.jpg"
+                data-fancybox="gallery"
+                ><img
+                  src="assets/img/gallery/gallery-9.jpg"
+                  class="img-fluid gallery-item h-100"
+                  alt=""
+              /></a>
+            </div>
+            <!-- End Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <a
+                href="./assets/img/gallery/gallery-10.jpg"
+                data-fancybox="gallery"
+                ><img
+                  src="assets/img/gallery/gallery-10.jpg"
+                  class="img-fluid gallery-item h-100"
+                  alt=""
+              /></a>
+            </div>
+            <!-- End Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <a
+                href="./assets/img/gallery/gallery-11.jpg"
+                data-fancybox="gallery"
+                ><img
+                  src="assets/img/gallery/gallery-11.jpg"
+                  class="img-fluid gallery-item h-100"
+                  alt=""
+              /></a>
+            </div>
+            <!-- End Item -->
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <a
+                href="./assets/img/gallery/gallery-12.jpg"
+                data-fancybox="gallery"
+                ><img
+                  src="assets/img/gallery/gallery-12.jpg"
+                  class="img-fluid gallery-item h-100"
+                  alt=""
+              /></a>
+            </div>
+            <!-- End Item -->
+          </div>
+          <!-- End Gallery Row -->
+        </div>
+      </section>
+      <section id="services" class="services section">
+        <!-- Section Title -->
+        <div class="container section-title text-center" data-aos="fade-up">
+          <h2>Services</h2>
+          <p>What I do</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-camera icon"></i></div>
+                <h4><a href="" class="stretched-link">Photo Session</a></h4>
+                <p>Ready to take your mwemorable photo session  </p>
               </div>
             </div>
-            <!-- End Gallery Item -->
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-camera-reels icon"></i></div>
+                <h4><a href="" class="stretched-link">Video Filming</a></h4>
+                <p>Reacord videos for your event or business </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-brush icon"></i></div>
+                <h4><a href="" class="stretched-link">Editing</a></h4>
+                <p>Edit your photos & videos by best editors</p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-book-half icon"></i></div>
+                <h4><a href="" class="stretched-link">Courses</a></h4>
+                <p>Best courses for beginners & professionals</p>
+              </div>
+            </div>
+            <!-- End Service Item -->
           </div>
         </div>
       </section>
-      <!-- /Gallery Section -->
-    </main>
+      <section id="pricing" class="pricing section">
+        <!-- Section Title -->
+        <div class="container section-title text-center" data-aos="fade-up">
+          <h2>Pricing</h2>
+          <p>Check my pricing</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4 gx-lg-5">
+            <div class="col-lg-6">
+              <div class="pricing-item d-flex justify-content-between">
+                <h3>Wedding Photography</h3>
+                <h4>$500.00</h4>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-6">
+              <div class="pricing-item d-flex justify-content-between">
+                <h3>Portrait Photography</h3>
+                <h4>$160.00</h4>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-6">
+              <div class="pricing-item d-flex justify-content-between">
+                <h3>Session Photography</h3>
+                <h4>$300.00</h4>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-6">
+              <div class="pricing-item d-flex justify-content-between">
+                <h3>Video Filming</h3>
+                <h4>$200.00</h4>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-6">
+              <div class="pricing-item d-flex justify-content-between">
+                <h3>Photo Edit</h3>
+                <h4>$120.00</h4>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+
+            <div class="col-lg-6">
+              <div class="pricing-item d-flex justify-content-between">
+                <h3>Video Edit</h3>
+                <h4>$200.00</h4>
+              </div>
+            </div>
+            <!-- End Pricing Item -->
+          </div>
+        </div>
+      </section>
+      <section id="testimonials" class="testimonials section">
+        <!-- Section Title -->
+        <div class="container section-title text-center" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>Clients Openion</p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 2000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "750": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 2
+                  },
+                  "1000": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 1
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img
+                      src="assets/img/testimonials/testimonials-1.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Sayed Hossain</h3>
+                    <h4>Ceo &amp; Founder at PhotoZoom</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit fore
+                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                    culpa.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img
+                      src="assets/img/testimonials/testimonials-2.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Esraa Said</h3>
+                    <h4>Designer</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img
+                      src="assets/img/testimonials/testimonials-3.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Nada Amir</h3>
+                    <h4>Store Owner</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim duis
+                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                    illum veniam.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img
+                      src="assets/img/testimonials/testimonials-4.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Mohamed Sayed</h3>
+                    <h4>Freelancer</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i
+                    ><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                    fore nisi cillum quid.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img
+                      src="assets/img/testimonials/testimonials-5.jpg"
+                      class="testimonial-img"
+                      alt=""
+                    />
+                    <h3>Khaled Ahmed</h3>
+                    <h4>Entrepreneur</h4>
+                  </div>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+    <div class="container section-title text-center" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Get In Touch</p>
+    </div>
+    <section id="contact" class="contact section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Kafr Sakr,Sharkia, Egypt</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call</h3>
+                  <p>+20 109 715 5272</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p>ahmed.code.dev@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+        </div>
+
+        <!-- Map -->
+      </div>
+      <div
+        class="container text-center"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.402800119008!2d31.62330803358459!3d30.79133657432091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f789d6da35b631%3A0x8c383412e3f260e6!2sKafr%20Saqr%2C%20Monshaat%20Shalaby%2C%20Kafr%20Saqr%2C%20Al-Sharqia%20Governorate%207241370!5e0!3m2!1sen!2seg!4v1722432505777!5m2!1sen!2seg"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+  </main>
 
     <footer id="footer" class="footer">
       <div class="container">
-        <div class="social-links d-flex justify-content-center">
+        <div class="social-links d-flex justify-content-center m-3">
           <a href="https://x.com/AhmedSha3rawy54"
             ><i class="bi bi-twitter-x"></i
           ></a>
@@ -325,7 +687,7 @@
             ><i class="bi bi-linkedin"></i
           ></a>
         </div>
-        <div class="credits">
+        <div class="credits mt-4">
           Made with 💙 by <a href="">Ahmed Mostafa || Bullet Byte</a>
         </div>
         <div class="copyright text-center">
@@ -353,12 +715,9 @@
     <!-- Fancybox -->
     <script>
       Fancybox.bind("[data-fancybox]", {
-        // Your custom options
-        // Transition effect when changing gallery items
         Carousel: {
           transition: "slide",
         },
-        // Custom CSS transition on opening
         showClass: "f-fadeIn",
       });
     </script>

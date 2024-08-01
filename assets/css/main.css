@@ -124,7 +124,7 @@ h6 {
     color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-/* Navmenu - Desktop */
+/* Navmenu  */
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -359,9 +359,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Global Footer
---------------------------------------------------------------*/
+/* Footer */
 .footer {
   --background-color: color-mix(in srgb, var(--default-color), transparent 95%);
   border-top: 1px solid
@@ -406,9 +404,8 @@ h6 {
   text-align: center;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+
+ /* Preloader */
 
 #preloader {
   display: flex;
@@ -518,18 +515,16 @@ h6 {
   bottom: 15px;
 }
 
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
+ /* Disable aos animation delay on mobile devices */
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 
-/*--------------------------------------------------------------
-# Global Page Titles & Breadcrumbs
---------------------------------------------------------------*/
+
+ /*  Page Titles & Breadcrumbs */
+
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -590,9 +585,9 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Global Sections
---------------------------------------------------------------*/
+
+ /* Sections */
+
 section,
 .section {
   color: var(--default-color);
@@ -609,9 +604,9 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Global Section Titles
---------------------------------------------------------------*/
+
+ /* Section Titles */
+
 .section-title {
   padding-bottom: 60px;
   position: relative;
@@ -647,9 +642,9 @@ section,
   font-family: var(--heading-font);
 }
 
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
+
+ /* Hero Section */
+
 .hero {
   --default-color: #ffffff;
   --background-color: #000000;
@@ -662,27 +657,8 @@ section,
   display: flex;
   align-items: center;
   overflow: hidden;
+  background: url("../img/hero-bg.jpg");
 }
-.img-div {
-  overflow: hidden;
-}
-.hero-img {
-  height: 300px;
-  width: 300px;
-  position: relative;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-}
-.hero-bg-img {
-  height: 80%;
-  width: 80%;
-  position: absolute;
-  /* bottom: 30px; */
-  border-radius: 50%;
-  overflow: hidden;
-}
-
 .hero h2 {
   margin: 0 0 10px 0;
   font-size: 38px;
@@ -735,6 +711,27 @@ section,
 .hero .btn-get-started:hover {
   background-color: color-mix(in srgb, var(--primary-color) 90%, white 10%);
 }
+
+.hero-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #2b178594;
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  font-size: 16px;
+  color:var(--secondary-color);
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.hero-links a:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
 
  /* Gallery Section */
 
@@ -792,9 +789,9 @@ section,
   transform: scale(1.1);
 }
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
+
+ /* About Section */
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -822,9 +819,9 @@ section,
   line-height: 0;
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
+
+/*  Testimonials Section */
+
 .testimonials .testimonial-item {
   box-shadow: 0px 0 20px
     color-mix(in srgb, var(--default-color), transparent 90%);
@@ -916,9 +913,9 @@ section,
   }
 }
 
-/*--------------------------------------------------------------
-# Gallery Details Section
---------------------------------------------------------------*/
+
+/*  Gallery Details Section */
+
 .gallery-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1090,9 +1087,9 @@ section,
   padding: 0;
 }
 
-/*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
+
+/* Services Section */
+
 .services .service-item {
   background-color: var(--contrast-color);
   padding: 50px 30px;
@@ -1163,9 +1160,9 @@ section,
   border-radius: 0px;
 }
 
-/*--------------------------------------------------------------
-# Pricing Section
---------------------------------------------------------------*/
+
+ /* Pricing Section */
+
 .pricing .pricing-item {
   --heading-font: var(--default-font);
   border-bottom: 1px dashed
@@ -1187,9 +1184,9 @@ section,
   font-size: 16px;
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
+
+ /* Contact Section */
+
 .contact .info-wrap {
   margin-bottom: 30px;
 }
@@ -1226,95 +1223,6 @@ section,
   color: var(--contrast-color);
 }
 
-@media (max-width: 575px) {
-  .contact .php-email-form {
-    padding: 20px;
-  }
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  background: #df1529;
-  color: #ffffff;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #ffffff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: var(--background-color);
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid var(--primary-color);
-  border-top-color: var(--background-color);
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input[type="text"],
-.contact .php-email-form input[type="email"],
-.contact .php-email-form textarea {
-  font-size: 14px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-}
-
-.contact .php-email-form input[type="text"]:focus,
-.contact .php-email-form input[type="email"]:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--primary-color);
-}
-
-.contact .php-email-form input[type="text"]::placeholder,
-.contact .php-email-form input[type="email"]::placeholder,
-.contact .php-email-form textarea::placeholder {
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
-}
-
-.contact .php-email-form button[type="submit"] {
-  color: var(--default-color);
-  background: var(--primary-color);
-  font-weight: 400;
-  font-size: 14px;
-  display: inline-block;
-  margin-top: 20px;
-  padding: 14px 40px;
-  border: 0;
-  border-radius: 4px;
-  transition: 0.5s;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background-color: color-mix(in srgb, var(--primary-color) 90%, white 10%);
-}
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1325,11 +1233,3 @@ section,
   }
 }
 
-/* Hero Image */
-
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
