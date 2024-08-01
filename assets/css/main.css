@@ -584,10 +584,7 @@ h6 {
   padding-right: 10px;
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
-
-
  /* Sections */
-
 section,
 .section {
   color: var(--default-color);
@@ -596,7 +593,6 @@ section,
   scroll-margin-top: 100px;
   overflow: clip;
 }
-
 @media (max-width: 1199px) {
   section,
   .section {
@@ -604,14 +600,11 @@ section,
   }
 }
 
-
  /* Section Titles */
-
 .section-title {
   padding-bottom: 60px;
   position: relative;
 }
-
 .section-title h2 {
   font-size: 14px;
   font-weight: 400;
@@ -624,7 +617,6 @@ section,
   position: relative;
   font-family: var(--default-font);
 }
-
 .section-title h2::after {
   content: "";
   width: 120px;
@@ -633,7 +625,6 @@ section,
   background: var(--primary-color);
   margin: 4px 10px;
 }
-
 .section-title p {
   color: var(--heading-color);
   margin: 0;
@@ -641,10 +632,7 @@ section,
   font-weight: 400;
   font-family: var(--heading-font);
 }
-
-
- /* Hero Section */
-
+ /* Hero  */
 .hero {
   --default-color: #ffffff;
   --background-color: #000000;
@@ -664,7 +652,6 @@ section,
   font-size: 38px;
   font-weight: 700;
 }
-
 .hero h2 .underlight {
   position: relative;
   z-index: 1;
@@ -731,10 +718,7 @@ section,
   color: var(--primary-color);
   border-color: var(--primary-color);
 }
-
-
  /* Gallery Section */
-
 .gallery .gallery-item {
   position: relative;
   overflow: hidden;
@@ -743,11 +727,9 @@ section,
 .latest-photos:hover{
   color: var(--primary-color)
 }
-
 .gallery .gallery-item img {
   transition: 0.3s;
 }
-
 .gallery .gallery-links {
   position: absolute;
   inset: 0;
@@ -756,7 +738,6 @@ section,
   background: rgba(0, 0, 0, 0.6);
   z-index: 3;
 }
-
 .gallery .gallery-links .preview-link,
 .gallery .gallery-links .details-link {
   font-size: 20px;
@@ -765,26 +746,21 @@ section,
   line-height: 1.2;
   margin: 30px 8px 0 8px;
 }
-
 .gallery .gallery-links .preview-link:hover,
 .gallery .gallery-links .details-link:hover {
   color: #ffffff;
 }
-
 .gallery .gallery-links .details-link {
   font-size: 30px;
   line-height: 0;
 }
-
 .gallery .gallery-item:hover .gallery-links {
   opacity: 1;
 }
-
 .gallery .gallery-item:hover .preview-link,
 .gallery .gallery-item:hover .details-link {
   margin-top: 0;
 }
-
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
