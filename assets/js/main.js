@@ -1,6 +1,17 @@
 (function () {
   "use strict";
-
+  //Preloader
+  const preloader = document.querySelector("#preloader");
+  if (preloader) {
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        preloader.classList.add("loaded");
+      }, 1000);
+      setTimeout(() => {
+        preloader.remove();
+      }, 1000);
+    });
+  }
   // Apply .scrolled class to the body as the page is scrolled down
   function toggleScrolled() {
     const selectBody = document.querySelector("body");
@@ -46,39 +57,7 @@
       e.stopImmediatePropagation();
     });
   });
-
-  //Preloader
-  const preloader = document.querySelector("#preloader");
-  if (preloader) {
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        preloader.classList.add("loaded");
-      }, 1000);
-      setTimeout(() => {
-        preloader.remove();
-      }, 1000);
-    });
-  }
-
-  //Scroll top button
-  let scrollTop = document.querySelector(".scroll-top");
-  function toggleScrollTop() {
-    if (scrollTop) {
-      window.scrollY > 100
-        ? scrollTop.classList.add("active")
-        : scrollTop.classList.remove("active");
-    }
-  }
-  scrollTop.addEventListener("click", (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  });
-  window.addEventListener("load", toggleScrollTop);
-  document.addEventListener("scroll", toggleScrollTop);
-
+  
   //Animation on scroll function and init
   function aosInit() {
     AOS.init({
@@ -90,6 +69,26 @@
   }
   window.addEventListener("load", aosInit);
 
+
+  //Scroll top button
+  let scrollTop = document.querySelector(".scroll-top");
+  function toggleScrollTop() {
+    if (scrollTop) {
+      window.scrollY > 100
+        ? scrollTop.classList.add("active")
+        : scrollTop.classList.remove("active");
+    }
+  }
+  // To top
+  scrollTop.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+  window.addEventListener("load", toggleScrollTop);
+  document.addEventListener("scroll", toggleScrollTop);
   //Init swiper sliders
   function initSwiper() {
     document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
@@ -105,18 +104,3 @@
   }
   window.addEventListener("load", initSwiper);
 })();
-
-// // FancyBox
-// Fancybox.bind("[data-fancybox]", {
-//   // Your custom options
-//     // Transition effect when changing gallery items
-//     Carousel: {
-//       transition: "slide",
-//     },
-//     // Disable image zoom animation on opening and closing
-//     Images: {
-//       zoom: false,
-//     },
-//     // Custom CSS transition on opening
-//     showClass: "f-fadeIn",
-// });
