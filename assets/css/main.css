@@ -1,15 +1,17 @@
 /* Fonts */
 :root {
-  --default-font: "Open Sans";
-  --heading-font: "Open Sans", sans-serif;
-  --nav-font: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  --default-font: "Ubuntu", sans-serif;
+  --heading-font: "Ubuntu", sans-serif;
+  --nav-font: "Ubuntu", sans-serif;
   --primary-color: #6d42d1;
   --secondary-color: #0ebdd4;
   --background-color: #000000;
   --default-color: #fafafa;
   --heading-color: #ffffff;
   --contrast-color: #161718;
-  --nav-color: #8b8787;
+  --nav-color: #c7c4c4;
   scroll-behavior: smooth;
   --nav-hover-color: var(--primary-color);
   --nav-dropdown-background-color: #161718;
@@ -705,7 +707,7 @@ section,
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #2b178594;
+  background-color: #03030394;
   border-radius: 50%;
   border: 1px solid var(--secondary-color);
   font-size: 16px;
@@ -761,8 +763,8 @@ section,
 .gallery .gallery-item:hover .details-link {
   margin-top: 0;
 }
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
+.gallery .gallery-item:hover {
+  opacity: .5;
 }
  /* About Section */
 .about .content h2 {
