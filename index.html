@@ -21,9 +21,13 @@
     <link href="assets/js/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <link href="assets/css/main.css" rel="stylesheet" />
     <!-- FancyBox -->
+    <link rel="stylesheet" href="./assets/css/fancybox.css" />
+    <!-- Hero BG Image -->
     <link
-      rel="stylesheet"
-      href="./assets/css/fancybox.css"
+      rel="preload"
+      as="image"
+      href="https://studio-ali.vercel.app/assets/img/hero-bg.jpg"
+        aria-label="Hero Image"
     />
   </head>
   <body class="index-page">
@@ -77,13 +81,16 @@
               <a href="#contact" class="btn-get-started m-5"> Hire Me<br /></a>
               <div class="hero-links d-flex justify-content-center">
                 <a href="https://x.com/AhmedSha3rawy54"
+                    aria-label="twitter"
                   ><i class="bi bi-twitter-x"></i
                 ></a>
                 <a href="https://www.facebook.com/ahmed.mostafa2011"
+                    aria-label="facebook"
                   ><i class="bi bi-facebook"></i
                 ></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/ahmed-mostafa5"
+                    aria-label="linkedin"
                   ><i class="bi bi-linkedin"></i
                 ></a>
               </div>
@@ -99,7 +106,14 @@
           </div>
           <div class="row gy-4 justify-content-center">
             <div class="col-lg-4">
-              <img src="assets/img/profile-img.png" class="img-fluid" alt="" />
+              <img
+                src="assets/img/profile-img.png"
+                class="img-fluid"
+                alt="profile-img"
+                loading="lazy"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              />
             </div>
             <div class="col-lg-5 content text-center">
               <h2 style="color: #6d42d1">
@@ -169,7 +183,7 @@
                 ><img
                   src="assets/img/gallery/gallery-1.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -179,7 +193,7 @@
                 ><img
                   src="assets/img/gallery/gallery-2.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -189,7 +203,7 @@
                 ><img
                   src="assets/img/gallery/gallery-3.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -199,7 +213,7 @@
                 ><img
                   src="assets/img/gallery/gallery-4.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -209,7 +223,7 @@
                 ><img
                   src="assets/img/gallery/gallery-5.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -219,7 +233,7 @@
                 ><img
                   src="assets/img/gallery/gallery-6.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -229,7 +243,7 @@
                 ><img
                   src="assets/img/gallery/gallery-7.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -239,7 +253,7 @@
                 ><img
                   src="assets/img/gallery/gallery-8-2.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -249,7 +263,7 @@
                 ><img
                   src="assets/img/gallery/gallery-9.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -259,7 +273,7 @@
                 ><img
                   src="assets/img/gallery/gallery-10.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -269,7 +283,7 @@
                 ><img
                   src="assets/img/gallery/gallery-11.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6">
@@ -279,7 +293,7 @@
                 ><img
                   src="assets/img/gallery/gallery-12.jpg"
                   class="img-fluid gallery-item h-100"
-                  alt=""
+                  alt="img" loading="lazy"
               /></a>
             </div>
           </div>
@@ -440,7 +454,7 @@
                     <img
                       src="assets/img/testimonials/testimonials-1.jpg"
                       class="testimonial-img"
-                      alt=""
+                      alt="img" loading="lazy"
                     />
                     <h3>Sayed Hossain</h3>
                     <h4>Influencer</h4>
@@ -465,7 +479,7 @@
                     <img
                       src="assets/img/testimonials/testimonials-2.jpg"
                       class="testimonial-img"
-                      alt=""
+                      alt="img" loading="lazy"
                     />
                     <h3>Esraa Said</h3>
                     <h4>Ceo &amp; Founder at PhotoZoom</h4>
@@ -489,7 +503,7 @@
                     <img
                       src="assets/img/testimonials/testimonials-3.jpg"
                       class="testimonial-img"
-                      alt=""
+                      alt="img" loading="lazy"
                     />
                     <h3>Nada Amir</h3>
                     <h4>Store Owner</h4>
@@ -514,7 +528,7 @@
                     <img
                       src="assets/img/testimonials/testimonials-4.jpg"
                       class="testimonial-img"
-                      alt=""
+                      alt="img" loading="lazy"
                     />
                     <h3>Mohamed Sayed</h3>
                     <h4>Freelancer</h4>
@@ -538,7 +552,7 @@
                     <img
                       src="assets/img/testimonials/testimonials-5.jpg"
                       class="testimonial-img"
-                      alt=""
+                      alt="img" loading="lazy"
                     />
                     <h3>Khaled Ahmed</h3>
                     <h4>Entrepreneur</h4>
@@ -600,7 +614,10 @@
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade" 
+            class="map"
+            alt="map"
+            aria-label="map"
           ></iframe>
         </div>
       </section>
@@ -609,19 +626,23 @@
       <div class="container">
         <div class="social-links d-flex justify-content-center m-3">
           <a href="https://x.com/AhmedSha3rawy54"
+          aria-label=" Ahmed Sha3rawy on Twitter"
             ><i class="bi bi-twitter-x"></i
           ></a>
           <a href="https://www.facebook.com/ahmed.mostafa2011"
+            aria-label="Ahmed Mostafa on Facebook"
             ><i class="bi bi-facebook"></i
           ></a>
           <a href=""><i class="bi bi-instagram"></i></a>
           <a href="https://www.linkedin.com/in/ahmed-mostafa5"
+            aria-label="Ahmed Mostafa on LinkedIn"
             ><i class="bi bi-linkedin"></i
           ></a>
         </div>
         <div class="credits mt-4">
           Made with 💙 by
           <a href="https://www.facebook.com/ahmed.mostafa2011"
+            aria-label="Ahmed Mostafa on Facebook"
             >Ahmed Mostafa || Bullet Byte</a
           >
         </div>
@@ -637,10 +658,10 @@
       ><i class="bi bi-arrow-up-short"></i
     ></a>
     <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/aos/aos.js"></script>
-    <script src="./assets/js/fancybox.umd.js"></script>
-    <script src="assets/js/swiper/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/aos/aos.js" defer></script>
+    <script src="./assets/js/fancybox.umd.js" defer></script>
+    <script src="assets/js/swiper/swiper-bundle.min.js" defer></script>
     <script>
       Fancybox.bind("[data-fancybox]", {
         Carousel: {
