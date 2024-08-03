@@ -1,6 +1,13 @@
 /* Fonts */
+@font-face {
+  font-family: Ubuntu;
+  src:url("../Ubuntu-Medium.ttf");
+}
+
+* {
+  font-family: Ubuntu !important;
+}
 :root {
-  font-weight: 400;
   font-style: normal;
   --default-font: "Ubuntu", sans-serif;
   --heading-font: "Ubuntu", sans-serif;
@@ -404,6 +411,12 @@ h6 {
   margin-top: 10px;
   font-size: 13px;
   text-align: center;
+}
+.footer .credits a{
+  color:#03a9f4
+}
+.footer .credits a:hover{
+color:#f10606 ;
 }
 
 
