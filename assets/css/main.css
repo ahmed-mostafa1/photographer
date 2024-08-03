@@ -715,7 +715,6 @@ section,
   margin: 0 5px;
   transition: 0.3s;
 }
-
 .hero-links a:hover {
   color: var(--primary-color);
   border-color: var(--primary-color);
