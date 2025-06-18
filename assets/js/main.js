@@ -1,17 +1,17 @@
 (function () {
   "use strict";
   //Preloader
-  const preloader = document.querySelector("#preloader");
-  if (preloader) {
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        preloader.classList.add("loaded");
-      }, 100);
-      setTimeout(() => {
-        preloader.remove();
-      }, 10);
-    });
-  }
+  //const preloader = document.querySelector("#preloader");
+ // if (preloader) {
+//    window.addEventListener("load", () => {
+//      setTimeout(() => {
+ //       preloader.classList.add("loaded");
+//      }, 100);
+//      setTimeout(() => {
+//        preloader.remove();
+//      }, 10);
+//    })
+}
   // Apply .scrolled class to the body as the page is scrolled down
   function toggleScrolled() {
     const selectBody = document.querySelector("body");
