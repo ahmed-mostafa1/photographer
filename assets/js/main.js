@@ -6,10 +6,10 @@
     window.addEventListener("load", () => {
       setTimeout(() => {
         preloader.classList.add("loaded");
-      }, 1000);
+      }, 100);
       setTimeout(() => {
         preloader.remove();
-      }, 1000);
+      }, 10);
     });
   }
   // Apply .scrolled class to the body as the page is scrolled down
